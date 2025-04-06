@@ -1,0 +1,289 @@
+    
+    /* Default: Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-theme .navbar {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  body.dark-theme .poster {
+    background-color: #202020;
+    color: white;
+  }
+  
+  /* Light Theme */
+  body.light-theme {
+    background-color: #cac3c3;
+    color: #111;
+  }
+  
+  body.light-theme .navbar {
+    background-color: #2e1f1f;
+    color: black;
+  }
+  
+  body.light-theme .poster {
+    background-color: #202020;
+    color: black;
+  }
+  .theme-toggle-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: inherit;
+    font-size: 14px;
+  }
+  /* General reset for margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body and background */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #141414;
+        color: #fff;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: space-between;  /* Space between logo and profile section */
+        align-items: center;
+        padding: 15px 40px;
+        background-color: #202020;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    /* Navbar Logo */
+    .navbar .logo {
+        font-size: 30px;
+        color: #ed0a15;
+        font-weight: bold;
+    }
+
+    /* Navbar List */
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        justify-content: center;  /* Centering the navbar items */
+        flex: 1;  /* Ensures it takes up available space */
+    }
+
+    /* Navbar List Items */
+    .navbar ul li {
+        display: inline;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+        color: #e50914;
+    }
+
+    /* Profile Section */
+    .profile-section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: auto; /* Pushes it to the right */
+        margin-right: 20px; /* Adjust the right margin as needed */
+    }
+
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .username {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    /* Search Bar */
+    .search-bar {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #333;
+        padding: 8px 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+    .search-bar:focus {
+        background-color: #333;
+        border-color: #e50914;
+        outline: none;
+    }
+
+    /* Main Content */
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+    .poster-scroll-wrapper {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 10px 0;
+        scrollbar-width: thin;
+        scrollbar-color: #131111 transparent;
+      }
+      
+      .poster-scroll-wrapper::-webkit-scrollbar {
+        height: 4px;
+      }
+      
+      .poster-scroll-wrapper::-webkit-scrollbar-thumb {
+        background-color: #1b1b1b;
+        border-radius: 4px;
+      }
+      
+      
+    /* Category Layout */
+    .category {
+        display: flex;
+        gap: 15px;
+        overflow: hidden;
+        padding: 10px 0;
+        justify-content: flex-start;
+        position: relative;
+        width: 100%;
+    }
+
+    .poster-container {
+        display: flex;
+        gap: 30px;
+        transition: transform 0.3s ease;
+        width: calc(20% * 5);
+    }
+
+    .poster {
+        flex: 0 0 20%;
+        max-width: 280px;
+        background: #202020;
+        border-radius: 10px;
+        text-align: center;
+        padding: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .poster:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .poster img {
+        width: 100%; /* Ensure the image spans the container's width */
+        height: 300px; /* Fixed height for uniformity */
+        object-fit: cover; /* Ensures the image is cropped to fit the dimensions */
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+
+    .poster h3 {
+        margin: 15px 0;
+        color: #ec2e2e;
+        font-size: px;
+    }
+
+    .poster p {
+        color: #eee5e5;
+        font-size: 14px;
+    }
+
+    
+
+    /* Intro Section */
+    .intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #141414;
+        animation: fadeIn 1.5s ease-out;
+        opacity: 0;
+    }
+
+    /* Logo Style */
+    .logo {
+        font-size: 100px;
+        color: #e50914;
+        font-weight: bold;
+        text-transform: uppercase;
+        animation: logoAnimation 1.5s ease-out forwards;
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes logoAnimation {
+        0% {
+            transform: scale(0); 
+            opacity: 0;
+        }
+        50% {
+            transform: scale(1.1); 
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1); 
+            opacity: 1;
+        }
+    }
+    
+
+    .carousel img {
+        width: 90vw; /* Set the width to 90% of the viewport width */
+        height:70vh; /* Set the height to 60% of the viewport height */
+        border: 5px solid #4f0303; /* Dark red border around the image */
+        border-radius: 8px; /* Rounded corners for the border */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+        display: block; /* Ensure the image behaves like a block element */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+    
+    
+    
+    
+    
+    
+    
