@@ -20,9 +20,9 @@ app.controller('MainController', function ($scope, $timeout, $window) {
     $scope.currentPage = 'home';
     $scope.currentImageIndex = 0;
     $scope.carouselImages = [
-       "C:/Users/kruti/Desktop/cinemedia/images/Munjya.jpg",
-       "C:/Users/kruti/Desktop/cinemedia/images/melting.jpg",
-        "images/Squid_Game_-_Poster.webp",
+       "Munjya.jpg",
+       "melting.jpg",
+        "Squid_Game_-_Poster.webp",
     
        
     ];
@@ -40,56 +40,56 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "Vincenzo Cassano, a Korean-Italian mafia consigliere, returns to South Korea after a betrayal in Italy. He plans to retrieve hidden gold stashed under a building, but gets entangled in a fight against a powerful corrupt corporation. With a mix of brutal tactics and unexpected wit, he partners with a sharp-tongued lawyer, Hong Cha-young, to bring justice the mafia way.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
                             description: "Conflict begins at the Plaza.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         }
                     ]
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                    , cast: "Ahn Hyo-seop,Kim Se-jeong,Kim Min-kyu",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
                             description: "Conflict begins at the Plaza.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         }
                     ]
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                 {
                     title: "Mismatched",
-                    image: "C:/Users/kruti/Desktop/cinemedia/images/mismatched.jpg",
+                    image: "mismatched.jpg",
                     description: "Mismatched follows Dimple, a tech-savvy and ambitious coder, and Rishi, a romantic who believes in arranged marriage. They meet at a summer app development course, where sparks fly — but not always the romantic kind. As their worlds collide, friendships form, hearts break, and everyone’s figuring out who they are and what they want."
 ,                }, {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 }, {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
             ]
@@ -99,30 +99,30 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
                             description: "Conflict begins at the Plaza.",
-                            video: "videos/vincenzo_ep2.mp4"
+                            video: "vincenzo_ep2.mp4"
                         }
                     ]
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                
@@ -132,14 +132,14 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
@@ -150,12 +150,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                 
@@ -169,14 +169,14 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
@@ -187,12 +187,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                 
@@ -202,14 +202,14 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
@@ -220,12 +220,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                
@@ -235,12 +235,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/squid-game.jpg",
+                    image: "squid-game.jpg",
                     description: "A deadly game with high stakes."
                 },
                 
@@ -250,12 +250,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/squid-game.jpg",
+                    image: "squid-game.jpg",
                     description: "A deadly game with high stakes."
                 },
                
@@ -269,14 +269,14 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
                         {
                             title: "Episode 1",
                             description: "Vincenzo arrives in Korea and gets into trouble.",
-                            video: "C:/Users/kruti/Desktop/cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         },
                         {
                             title: "Episode 2",
@@ -287,12 +287,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                
@@ -302,7 +302,7 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
@@ -320,12 +320,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                
@@ -335,7 +335,7 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer.",
                     cast: "Song Joong-ki, Jeon Yeo-been",
                     episodes: [
@@ -353,12 +353,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                 },
                 {
                     title: "Business Proposal",
-                    image: "images/bussiness prop.jpg",
+                    image: "bussiness prop.jpg",
                     description: "A romantic comedy about an office worker who goes on a blind date in place of her friend, only to discover that her boss is the one she's meeting. This leads to an unexpected romance and hilarious misunderstandings as they navigate their work and personal lives."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/Squid_Game_-_Poster.webp",
+                    image: "Squid_Game_-_Poster.webp",
                     description: "A deadly game with high stakes."
                 },
                
@@ -368,12 +368,12 @@ app.controller('MainController', function ($scope, $timeout, $window) {
             movies: [
                 {
                     title: "Vincenzo",
-                    image: "images/vincenzo 1.jpg",
+                    image: "vincenzo 1.jpg",
                     description: "A dark comedy about a lawyer."
                 },
                 {
                     title: "Squid Game",
-                    image: "images/squid-game.jpg",
+                    image: "squid-game.jpg",
                     description: "A deadly game with high stakes."
                 }
             ]
