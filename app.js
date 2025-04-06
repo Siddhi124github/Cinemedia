@@ -52,7 +52,7 @@ app.controller('MainController', function ($scope, $timeout, $window) {
                         {
                             title: "Episode 2",
                             description: "Conflict begins at the Plaza.",
-                            video: "cinemedia/Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
+                            video: "Vincenzo _ Official Trailer _ Netflix [ENG SUB].mp4"
                         }
                     ]
                 },
